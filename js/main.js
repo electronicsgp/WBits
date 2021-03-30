@@ -92,13 +92,6 @@
 //     }
 
 // }
-// setInterval(function() {
-//         var container = document.getElementById("carouselExampleIndicators");
-//         var tmp = container.innerHTML;
-//         container.innerHTML = tmp;
-//     }, 3000 // length of the whole show in milliseconds
-// );
-
 function axtec(e) {
     e.setAttribute('src', '../assets/images/caxtec.png')
 
@@ -133,3 +126,9 @@ function tsc(e) {
 function ctsc(e) {
     e.setAttribute('src', '../assets/images/cmobi.png')
 }
+setInterval(function() {
+        var container = document.getElementById("carouselExampleIndicators");
+        var tmp = container.innerHTML;
+        container.innerHTML = tmp;
+    }, 3000 // length of the whole show in milliseconds
+);
