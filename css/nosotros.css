@@ -39,7 +39,6 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 460px;
     transition: transform 0.8s ease;
 }
 
@@ -49,7 +48,7 @@
     content: "";
     height: 100px;
     position: absolute;
-    width: 200px;
+    width: 40px;
     z-index: 2;
 }
 
@@ -69,7 +68,8 @@
     -webkit-animation: scroll 40s linear infinite;
     animation: scroll 40s linear infinite;
     display: flex;
-    width: calc(250px * 14);
+    width: calc(250px * 13);
+    /* height: calc(250px * 14); */
 }
 
 .slider .slide {
@@ -84,8 +84,18 @@
 @media only screen and (min-width: 768px) {
     .header {
         background-image: url("../assets/images/sliders/nosotros.jpg");
+        height: 80vh;
     }
-    .slider {
-        width: 960px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .slider::before,
+    .slider::after {
+        background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+        content: "";
+        height: 100px;
+        position: absolute;
+        width: 200px;
+        z-index: 2;
     }
 }
