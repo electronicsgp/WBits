@@ -1,0 +1,246 @@
+/* custom properties */
+
+:root {
+    --primary-black: #222222;
+    --secondary-black: #332C22;
+    --white: #FFFFFF;
+    --contrast-footer: #FCFCFC;
+    --size-title: 40px;
+    --size-title-mobile: 30px;
+    --size-subtitle: 25px;
+    --size-subtitle-mobile: 25px;
+    --items-nav-footer: 16px;
+    --caption: 12px;
+    --body: 18px;
+    --par: 16px;
+    --font-secondary: 'Poiret One', cursive;
+    --font-principal: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-principal);
+    font-size: var(--body-mobile)
+}
+
+h1,
+h2 {
+    font-size: var(--size-title-mobile);
+    font-family: var(--font-principal);
+    font-weight: 500;
+}
+
+h3,
+h5 {
+    font-size: var(--size-subtitle-mobile);
+    font-weight: 300;
+}
+
+nav.navbar {
+    background-color: #ffffff;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .nav-item:hover .nosotros {
+    color: #683A8A;
+}
+
+.navbar .nav-item:hover .servicios {
+    color: #E6B630;
+}
+
+.navbar .nav-item:hover .productos {
+    color: #B31617;
+}
+
+.navbar .nav-item:hover .soluciones {
+    color: #1F8EC7;
+}
+
+.colorn .dropdown-item:hover {
+    background-color: rgba(104, 58, 138, 0.7);
+}
+
+.colors .dropdown-item:hover {
+    background-color: rgba(230, 182, 90, 0.7);
+}
+
+.colorp .dropdown-item:hover {
+    background-color: rgba(179, 22, 23, 0.7);
+}
+
+.colorso .dropdown-item:hover {
+    background-color: rgba(31, 142, 199, 0.7);
+}
+
+.animated {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    color: #4F4F51;
+    font-size: var(--size-subtitle-mobile);
+}
+
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100px, 0, 0);
+        transform: translate3d(100px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+
+.footer {
+    background-color: #393838;
+    color: #FFFFFF;
+}
+
+.footer p {
+    margin: 2px;
+    font-size: var(--items-nav-footer);
+    color: white;
+}
+
+.footer small {
+    color: var(--contrast-footer);
+}
+
+input[type] {
+    border-radius: 20px;
+    background-color: #C4C4C4;
+}
+
+input[type]::placeholder {
+    color: white;
+}
+
+button[type] {
+    border-radius: 20px;
+}
+
+.derecho {
+    background-color: white;
+}
+
+.derecho p {
+    color: black;
+}
+
+.imgstyle {
+    transition: transform 0.8s ease;
+}
+
+.imgstyle:hover {
+    transform: scale(1.1);
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+    .header {
+        height: 70vh;
+    }
+    body {
+        font-size: var(--body)
+    }
+    .cproductos {
+        font-size: var(--par);
+    }
+    h1,
+    h2 {
+        font-size: var(--size-title);
+    }
+    h5 {
+        font-size: var(--size-subtitle)
+    }
+    .animated {
+        font-size: var(--size-title);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    h6 {
+        font-size: var(--size-subtitle);
+    }
+    h3,
+    h1,
+    h2 {
+        font-size: var(--size-title);
+    }
+    h5 {
+        font-size: var(--size-subtitle)
+    }
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+        border: transparent;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}

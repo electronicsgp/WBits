@@ -1,0 +1,85 @@
+    .header {
+        background-image: url("../assets/images/sliders/mhome.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .card {
+        width: 18rem;
+        height: 25rem;
+        border-radius: 20px;
+        border: transparent;
+        background-color: transparent;
+        /* transition: 1.2s; */
+        box-shadow: inset 0 -3px 0 -1px #FFFFFF;
+        transition: box-shadow .6s ease-in-out;
+    }
+    
+    .card:hover .svgcolor {
+        filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+        transform: scale(1.1);
+    }
+    
+    .cnosotros .svgcolor {
+        filter: invert(30%) sepia(8%) saturate(5114%) hue-rotate(233deg) brightness(87%) contrast(92%);
+    }
+    
+    .cnosotros:hover {
+        box-shadow: inset 0 -100vh 0 -1px #633882;
+        color: white;
+    }
+    
+    .csoluciones .svgcolor {
+        filter: invert(44%) sepia(99%) saturate(499%) hue-rotate(159deg) brightness(87%) contrast(89%);
+    }
+    
+    .csoluciones:hover {
+        box-shadow: inset 0 -100vh 0 -1px #1F8EC7;
+        color: white;
+    }
+    
+    .cproductos .svgcolor {
+        filter: invert(16%) sepia(51%) saturate(5520%) hue-rotate(348deg) brightness(87%) contrast(99%);
+    }
+    
+    .cproductos:hover {
+        box-shadow: inset 0 -100vh 0 -1px #B31617;
+        color: white;
+    }
+    
+    .cservicios .svgcolor {
+        filter: invert(79%) sepia(68%) saturate(330%) hue-rotate(343deg) brightness(89%) contrast(88%);
+    }
+    
+    .cservicios:hover {
+        box-shadow: inset 0 -100vh 0 -1px #E6B630;
+        color: white;
+    }
+    
+    .svgcolor {
+        transition: transform 0.8s ease;
+    }
+    
+    a.astyle {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .footer .fas,
+    .fab {
+        background: #FFFFFF;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /* Media queries */
+    
+    @media only screen and (min-width: 768px) {
+        .header {
+            background-image: url("../assets/images/sliders/home.jpg");
+        }
+        #carouselExampleIndicators {
+            display: block;
+        }
+    }

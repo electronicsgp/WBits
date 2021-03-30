@@ -1,0 +1,34 @@
+.header {
+    background-image: url("../assets/images/sliders/msoluciones.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.stitle {
+    color: #1C8FC7;
+}
+
+.view-third .mask {
+    background-color: rgba(31, 142, 199, 0.5);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transform: translate(460px, -100px) rotate(180deg);
+    -moz-transform: translate(460px, -100px) rotate(180deg);
+    -o-transform: translate(460px, -100px) rotate(180deg);
+    -ms-transform: translate(460px, -100px) rotate(180deg);
+    transform: translate(460px, -100px) rotate(180deg);
+    -webkit-transition: all 0.1s 0.1s ease-in-out;
+    -moz-transition: all 0.1s 0.1s ease-in-out;
+    -o-transition: all 0.1s 0.1s ease-in-out;
+    -ms-transition: all 0.1s 0.1s ease-in-out;
+    transition: all 0.1s 0.1s ease-in-out;
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        background-image: url("../assets/images/sliders/soluciones.jpg");
+    }
+}
