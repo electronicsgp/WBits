@@ -4,7 +4,7 @@ function axtec(e) {
 }
 
 function caxtec(e) {
-    e.setAttribute('src', '../assets/images/smart.png')
+    e.setAttribute('src', './assets/images/smart.png')
 
 }
 
