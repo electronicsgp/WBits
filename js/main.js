@@ -99,12 +99,12 @@
 //     }, 3000 // length of the whole show in milliseconds
 // );
 
-function choney(e) {
+function axtec(e) {
     e.setAttribute('src', '../assets/images/caxtec.png')
 
 }
 
-function honey(e) {
+function caxtec(e) {
     e.setAttribute('src', '../assets/images/axtec.png')
 
 }
