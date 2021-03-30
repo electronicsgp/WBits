@@ -92,12 +92,12 @@
 //     }
 
 // }
-setInterval(function() {
-        var container = document.getElementById("carouselExampleIndicators");
-        var tmp = container.innerHTML;
-        container.innerHTML = tmp;
-    }, 3000 // length of the whole show in milliseconds
-);
+// setInterval(function() {
+//         var container = document.getElementById("carouselExampleIndicators");
+//         var tmp = container.innerHTML;
+//         container.innerHTML = tmp;
+//     }, 3000 // length of the whole show in milliseconds
+// );
 
 function choney(e) {
     e.setAttribute('src', '../assets/images/caxtec.png')
