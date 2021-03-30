@@ -1,10 +1,10 @@
 function axtec(e) {
-    e.setAttribute('src', '../assets/images/caxtec.png')
+    e.setAttribute('src', '/assets/images/caxtec.png')
 
 }
 
 function caxtec(e) {
-    e.setAttribute('src', '../assets/images/smart.png')
+    e.setAttribute('src', '/assets/images/smart.png')
 
 }
 
