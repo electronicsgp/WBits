@@ -9,11 +9,11 @@ function caxtec(e) {
 }
 
 function czebra(e) {
-    e.setAttribute('src', '../assets/images/csmart.png')
+    e.setAttribute('src', '../assets/images/czebra.png')
 }
 
 function carbor(e) {
-    e.setAttribute('src', '../assets/images/cwes.png')
+    e.setAttribute('src', '../assets/images/zebra.png')
 }
 
 function zebra(e) {
