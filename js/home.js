@@ -1,5 +1,5 @@
 function axtec(e) {
-    e.setAttribute('src', '/assets/images/caxtec.png')
+    e.setAttribute('src', '../assets/images/axtec.png')
 
 }
 
