@@ -85,30 +85,42 @@
         </div>
 
     </nav>
-    <header class="container-fluid d-flex align-items-center justify-content-md-start justify-content-center text-left">
-        <div id="carouselExampleInterval" class="carousel slide mb-5" data-ride="carousel">
-            <div class="carousel-inner ">
-                <div class="carousel-item active" data-interval="4000">
-                    <img src="./assets/images/sliders/ca1.jpg" class="img-fluid " alt="...">
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active slider1">
+
                 </div>
-                <div class="carousel-item" data-interval="4000">
-                    <img src="./assets/images/sliders/ca2.jpg" class="img-fluid" alt="...">
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item slider2">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                 </div>
-                <div class="carousel-item" data-interval="4000">
-                    <img src="./assets/images/sliders/ca3.jpg" class="img-fluid" alt="...">
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item slider3">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                 </div>
-                <div class="carousel-item" data-interval="4000">
-                    <img src="./assets/images/sliders/ca4.jpg" class="img-fluid" alt="...">
+                <div class="carousel-item slider4">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                 </div>
-                <div class="carousel-item" data-interval="4000">
-                    <img src="./assets/images/sliders/ca5.jpg" class="img-fluid" alt="...">
+                <div class="carousel-item slider5">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
