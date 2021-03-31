@@ -88,6 +88,7 @@ nav.navbar {
     animation-duration: 1.5s;
     color: white;
     font-size: var(--size-subtitle-mobile);
+    font-weight: 600;
 }
 
 @-webkit-keyframes fadeInRight {
