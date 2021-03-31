@@ -118,6 +118,15 @@ a.astyle {
     -webkit-text-fill-color: transparent;
 }
 
+input[type] {
+    border-radius: 20px;
+    background-color: white;
+}
+
+input[type]::placeholder {
+    color: black;
+}
+
 
 /* Media queries */
 

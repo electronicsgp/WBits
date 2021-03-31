@@ -39,3 +39,13 @@ function ctsc(e) {
 function cseuic(e) {
     e.setAttribute('src', '../assets/images/cseuic.png')
 }
+
+function axtec(e) {
+    e.setAttribute('src', '../assets/images/axtec.png')
+
+}
+
+function caxtec(e) {
+    e.setAttribute('src', '../assets/images/caxtec.png')
+
+}
