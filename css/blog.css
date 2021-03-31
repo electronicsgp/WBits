@@ -1,0 +1,22 @@
+body {
+    position: relative;
+}
+
+header {
+    position: relative;
+}
+
+#verticalScrollspy {
+    position: relative;
+}
+
+ul.nav-pills {
+    top: 50%;
+    position: fixed;
+}
+
+@media only screen and (min-width: 768px) {
+    /* .header {
+        background-image: url("../assets/images/sliders/contacto.jpg");
+    } */
+}
