@@ -50,9 +50,16 @@
     background-image: url('../assets/images/sliders/ca5.jpg');
 }
 
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 90%;
+    left: 70%;
+}
+
 .card {
-    width: 18rem;
-    height: 31rem;
+    width: 20rem;
+    height: 25rem;
     border-radius: 20px;
     border: transparent;
     background-color: transparent;
@@ -133,5 +140,19 @@ input[type]::placeholder {
 @media only screen and (min-width: 768px) {
     #carouselExampleIndicators {
         display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        width: 17rem;
+        height: 31rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .card {
+        width: 20rem;
+        height: 28rem;
     }
 }

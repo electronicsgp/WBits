@@ -8,7 +8,7 @@
     --size-title: 40px;
     --size-title-mobile: 30px;
     --size-subtitle: 25px;
-    --size-subtitle-mobile: 25px;
+    --size-subtitle-mobile: 18px;
     --items-nav-footer: 16px;
     --caption: 12px;
     --body: 18px;
@@ -25,14 +25,14 @@
 
 body {
     font-family: var(--font-principal);
-    font-size: var(--body-mobile)
+    font-size: var(--body-mobile);
 }
 
 h1,
 h2 {
     font-size: var(--size-title-mobile);
     font-family: var(--font-principal);
-    font-weight: 500;
+    font-weight: 900;
 }
 
 h3,
@@ -86,7 +86,7 @@ nav.navbar {
 .animated {
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
-    color: #4F4F51;
+    color: white;
     font-size: var(--size-subtitle-mobile);
 }
 
