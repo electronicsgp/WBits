@@ -47,6 +47,10 @@ nav.navbar {
     transition: 1s;
 }
 
+.navbar-brand img {
+    width: 50%;
+}
+
 .navbar .nav-item .dropdown-menu {
     margin-top: 0;
 }
@@ -201,6 +205,9 @@ button[type] {
 /* Media queries */
 
 @media only screen and (min-width: 768px) {
+    .navbar-brand img {
+        width: 100%;
+    }
     body {
         font-size: var(--body);
     }
