@@ -32,7 +32,7 @@ h1,
 h2 {
     font-size: var(--size-title-mobile);
     font-family: var(--font-principal);
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h3,
@@ -158,6 +158,9 @@ nav.navbar {
 }
 
 .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #393838;
     color: #FFFFFF;
 }
@@ -172,12 +175,14 @@ nav.navbar {
     color: var(--contrast-footer);
 }
 
-input[type] {
+input[type],
+textarea#texto {
     border-radius: 20px;
     background-color: #C4C4C4;
 }
 
-input[type]::placeholder {
+input[type]::placeholder,
+textarea#texto::placeholder {
     color: white;
 }
 
@@ -199,6 +204,39 @@ button[type] {
 
 .imgstyle:hover {
     transform: scale(1.1);
+}
+
+.btn-group-fab {
+    width: 50px;
+    height: auto;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+}
+
+.btn-group-fab div {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.btn-group-fab .btn {
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 4px;
+    width: 40px;
+    height: 40px;
+    margin: 4px auto;
+}
+
+.btn-group-fab .btn-main {
+    width: 50px;
+    height: 50px;
+    right: 50%;
+    margin-right: -25px;
+    z-index: 9;
 }
 
 

@@ -6,13 +6,21 @@
     background-attachment: fixed;
 }
 
+.navbar .nav-item .nosotros {
+    color: #683A8A;
+}
+
 .ntitle {
-    color: #633882;
+    color: #683A8A;
 }
 
 .textNos {
-    font-weight: 900;
+    font-weight: 700;
     font-size: var(--size-subtitle-mobile);
+}
+
+.textNos p {
+    display: inline;
 }
 
 @-webkit-keyframes scroll {
@@ -39,7 +47,7 @@
 
 .slider {
     background: pr;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
     height: 100px;
     margin: auto;
     overflow: hidden;
@@ -82,9 +90,10 @@
     width: 250px;
 }
 
-.slider:hover {
+
+/* .slider:hover {
     transform: scale(1.1);
-}
+} */
 
 .efectoimg {
     margin-top: 25%;
@@ -109,7 +118,7 @@
 .bottom-left {
     position: absolute;
     bottom: 8px;
-    left: 50px;
+    left: 40px;
 }
 
 .animate__animated {
@@ -117,38 +126,55 @@
     font-size: var(--size-subtitle-mobile);
 }
 
+.footer .fas,
+.fab {
+    background: #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input[type],
+textarea#texto {
+    border-radius: 20px;
+    background-color: white;
+}
+
+input[type]::placeholder,
+textarea#texto::placeholder {
+    color: black;
+}
+
 @media only screen and (min-width: 768px) {
     .animate__animated {
-        font-size: var(--size-title);
+        font-size: 34px;
     }
     .header {
         background-image: url("../assets/images/sliders/nosotros.jpg");
     }
     .otro {
-        top: -120%;
-        left: 2%;
+        top: -100%;
+        left: 15%;
     }
     .efectoimg {
-        margin-top: 20%;
-        margin-bottom: 30%;
+        margin-top: 15%;
+        margin-bottom: 15%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .textNos {
-        font-weight: 900;
         font-size: var(--size-subtitle);
     }
     .imgnos {
         width: 100%;
     }
     .otro {
-        top: -235%;
-        left: 8%;
+        top: -130%;
+        left: 26%;
     }
     .efectoimg {
-        margin-top: 20%;
-        margin-bottom: 20%;
+        margin-top: 15%;
+        margin-bottom: 15%;
     }
     .slider::before,
     .slider::after {
@@ -163,11 +189,11 @@
 
 @media only screen and (min-width: 1440px) {
     .otro {
-        top: -230%;
-        left: 18%;
+        top: -150%;
+        left: 28%;
     }
     .efectoimg {
         margin-top: 15%;
-        margin-bottom: 20%;
+        margin-bottom: 15%;
     }
 }

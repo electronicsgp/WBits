@@ -125,12 +125,14 @@ a.astyle {
     -webkit-text-fill-color: transparent;
 }
 
-input[type] {
+input[type],
+textarea#texto {
     border-radius: 20px;
     background-color: white;
 }
 
-input[type]::placeholder {
+input[type]::placeholder,
+textarea#texto::placeholder {
     color: black;
 }
 

@@ -6,6 +6,10 @@
     background-attachment: fixed;
 }
 
+.navbar .nav-item .servicios {
+    color: #E6B630;
+}
+
 .view-third .mask {
     background-color: rgba(230, 182, 90, 0.5);
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";

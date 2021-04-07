@@ -1,22 +1,32 @@
+.header {
+    /* background-image: url("../assets/images/sliders/mnosotros.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 body {
     position: relative;
 }
 
-header {
-    position: relative;
+.card {
+    border: transparent;
+    background-color: transparent;
 }
 
-#verticalScrollspy {
-    position: relative;
+.navid {
+    top: 30%;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
-ul.nav-pills {
-    top: 50%;
-    position: fixed;
+div.col-9 div {
+    height: 500px;
 }
 
 @media only screen and (min-width: 768px) {
-    /* .header {
-        background-image: url("../assets/images/sliders/contacto.jpg");
-    } */
+    .header {
+        background-image: url("../assets/images/sliders/blog.jpg");
+    }
 }

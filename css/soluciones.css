@@ -6,12 +6,16 @@
     background-attachment: fixed;
 }
 
+.navbar .nav-item .soluciones {
+    color: #1F8EC7;
+}
+
 .stitle {
     color: #1C8FC7;
 }
 
 .view-third .mask {
-    background-color: rgba(31, 142, 199, 0.5);
+    background-color: rgba(31, 142, 199, 0.7);
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/productos.css">
+
     <link rel="stylesheet" type="text/css" href="../css/style_common.css" />
     <link rel="stylesheet" type="text/css" href="../css/style3.css" />
 </head>
@@ -30,7 +31,7 @@
           </button>
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                 <ul class="navbar-nav navbar-collapse justify-content-end">
-                    <li class="nav-item active"><a class="nav-link home " href="../">HOME <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link home " href="../">HOME <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link nosotros " href="../pages/nosotros.html">NOSOTROS</a>
                         <!-- <ul class="dropdown-menu colorn">
@@ -68,7 +69,7 @@
                             <li><a class="dropdown-item text-center" href="../pages/servicios.html">Automatizaci&oacute;n de<br>servicios </a></li>
                         </ul> -->
                     </li>
-                    <li class="nav-item "><a class="nav-link  ">BLOG</a>
+                    <li class="nav-item "><a class="nav-link" href="../pages/blog.html">BLOG</a>
                     </li>
                     <li class="nav-item "><a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
                     </li>
@@ -83,7 +84,7 @@
     <header class="container-fluid header d-flex align-items-md-end justify-content-md-end align-items-start justify-content-end">
         <div class="row pr-5">
             <div class="col-12 " id="carouselExampleIndicators">
-                <h1 style="color: white;" class="animated fadeInUp ">Productos</h1>
+                <h1 style="color: white;" class="animate__animated animate__fadeInUpBig">Productos</h1>
             </div>
         </div>
     </header>
@@ -93,7 +94,7 @@
             <div class="row d-flex justify-content-center my-5 mx-md-5 mx-2">
 
                 <div class="col-12 ">
-                    <p class="text-justify mx-md-5 mx-2">Las operaciones de los centros de distribución son complejas, nuestros productos están pensados para una fuerza de trabajo más rápida, precisa y flexible ante las demandas variables, lo cual aumenta el rendimiento, mientras reduce
+                    <p class="text-center mx-md-5 mx-2">Las operaciones de los centros de distribución son complejas, nuestros productos están pensados para una fuerza de trabajo más rápida, precisa y flexible ante las demandas variables, lo cual aumenta el rendimiento, mientras reduce
                         los costos. Descubre nuestros productos:</p>
 
                 </div>
@@ -149,9 +150,9 @@
         <section class="container-fluid my-5">
             <div class="row d-flex justify-content-center mt-5  mx-md-5 mx-2">
                 <div class="col-12 my-3 ptitle">
-                    <h1>Conoce nuestras representaciones</h1>
+                    <h1 class="text-center">Conoce nuestras representaciones</h1>
                 </div>
-                <div class="col-12 col-md-3 mx-3 mx-lg-5 mt-5">
+                <!-- <div class="col-12 col-md-3 mx-3 mx-lg-5 mt-5">
                     <img class="img-fluid mx-auto d-block my-5  imgstyle" src="../assets/images/honeywell.png" onmouseover="choney(this)" onmouseout="honey(this)" alt="">
                 </div>
                 <div class="col-12 col-md-3 mt-5">
@@ -159,16 +160,70 @@
                 </div>
                 <div class="col-12 col-md-3 mx-3 mx-lg-5 mt-5">
                     <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/arbor.png" onmouseover="carbor(this)" onmouseout="arbor(this)" alt="">
-                </div>
+                </div> -->
             </div>
-            <div class="row d-flex justify-content-center mx-4">
+            <!-- <div class="row d-flex justify-content-center mx-4">
                 <div class="col-12 col-md-2 mx-3 mx-lg-5">
                     <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/tsc.png" onmouseover="ctsc(this)" onmouseout="tsc(this)" alt="">
                 </div>
                 <div class="col-12 col-md-2">
                     <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/seuic.png" onmouseover="cseuic(this)" onmouseout="seuic(this)" alt="">
                 </div>
-            </div>
+            </div> -->
+            <div class="col-12 my-5 ">
+                <div class="slider mx-md-5 mx-2 ">
+                    <div class="slide-track ">
+                        <div class="slide d-flex align-items-center pl-md-4 ">
+                            <a href=""><img class="img-fluid mx-auto d-block my-5  imgstyle" src="../assets/images/honeywell.png" onmouseover="choney(this)" onmouseout="honey(this)" alt=""></a>
+                        </div>
+                        <div class="slide d-flex align-items-center ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-3  imgstyle" src="../assets/images/zebra.png" onmouseover="czebra(this)" onmouseout="zebra(this)" alt="">
+                            </a>
+                        </div>
+                        <div class="slide d-flex align-items-center ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/arbor.png" onmouseover="carbor(this)" onmouseout="arbor(this)" alt="">
+                            </a>
+                        </div>
+                        <div class="slide d-flex align-items-center  pr-md-5 ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/tsc.png" onmouseover="ctsc(this)" onmouseout="tsc(this)" alt="">
+                            </a>
+                        </div>
+                        <div class="slide d-flex align-items-center pr-md-5 ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/seuic.png" onmouseover="cseuic(this)" onmouseout="seuic(this)" alt="">
+                            </a>
+                        </div>
+                        <div class="slide d-flex align-items-center pl-md-4 ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-5  imgstyle" src="../assets/images/honeywell.png" onmouseover="choney(this)" onmouseout="honey(this)" alt="">
+                            </a>
+                        </div>
+                        <div class="slide d-flex align-items-center ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-3  imgstyle" src="../assets/images/zebra.png" onmouseover="czebra(this)" onmouseout="zebra(this)" alt="">
+                            </a>
+                        </div>
+                        <div class="slide d-flex align-items-center ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/arbor.png" onmouseover="carbor(this)" onmouseout="arbor(this)" alt="">
+                            </a>
+                        </div>
+                        <div class="slide d-flex align-items-center  pr-md-5 ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/tsc.png" onmouseover="ctsc(this)" onmouseout="tsc(this)" alt="">
+                            </a>
+                        </div>
+                        <div class="slide d-flex align-items-center pr-md-5 ">
+                            <a href="">
+                                <img class="img-fluid mx-auto d-block my-5 imgstyle" src="../assets/images/seuic.png" onmouseover="cseuic(this)" onmouseout="seuic(this)" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
         </section>

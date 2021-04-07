@@ -23,6 +23,7 @@
 
 <body>
 
+
     <nav class="navbar fixed-top navbar-expand-lg navbar-light transparent" id="navbar">
 
         <div class="container-fluid">
@@ -33,7 +34,7 @@
           </button>
             <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
 
-                <ul class="navbar-nav navbar-collapse d-flex align-items-end d-flex justify-content-end mt-5">
+                <ul class="navbar-nav navbar-collapse  d-flex justify-content-end ">
                     <li class="nav-item active"><a class="nav-link home " href="./">HOME <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link nosotros <!--dropdown-toggle-->" href="./pages/nosotros.html" <!--data-toggle="dropdown" --> NOSOTROS</a>
@@ -73,17 +74,12 @@
                         </ul> -->
                     </li>
 
-                    <li class="nav-item "><a class="nav-link">BLOG</a>
+                    <li class="nav-item "><a class="nav-link" href="./pages/blog.html">BLOG</a>
                     </li>
                     <li class="nav-item "><a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
                     </li>
 
                 </ul>
-                <div class="row d-flex align-items-end">
-                    <div class="col-12 ">
-                        <i class="fas fa-search"></i>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -117,7 +113,7 @@
                 </div>
                 <div class="carousel-caption row mr-5 d-flex align-items-center">
                     <div class="col-12 " id="carouselExampleIndicators">
-                        <h2 class="animated fadeInLeft ">Building IT Solutions</h2>
+                        <h2 class="animate__animated animate__fadeInUpBig">Building IT Solutions</h2>
                     </div>
                 </div>
             </div>
@@ -134,7 +130,13 @@
         </div>
 
     </header>
+    <div class="btn-group-fab" role="group" aria-label="FAB Menu">
+        <div>
+            <button type="button" class="btn btn-main btn-primary has-tooltip" data-placement="left" title="Menu"> <i class="fab fa-whatsapp fa-2x"></i> </button>
+        </div>
+    </div>
     <main class="page-main ">
+
         <section class="container-fluid my-5">
 
             <div class="row  d-flex justify-content-center mx-xl-5">
@@ -143,11 +145,11 @@
                         <a href="./pages/nosotros.html" class="astyle">
                             <div class="card mx-auto cnosotros">
                                 <div class="ml-3 mt-3">
-                                    <img class="img-fluid float-left svgcolor " src="./assets/images/svg/nosotros.svg" alt="Card image cap ">
+                                    <img class="img-fluid mx-auto d-block  svgcolor " src="./assets/images/svg/nosotros.svg" alt="Card image cap ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Nosotros</h5>
-                                    <p class="card-text text-justify">Somos una empresa mexicana con m&aacute;s de 30 años de experiencia en la implementaci&oacute;n soluciones basadas en c&oacute;mputo m&oacute;vil y recolecci&oacute;n autom&aacute;tica de datos. Utilizamos tecnolog&iacute;as
+                                    <p class="card-text text-center">Somos una empresa mexicana con m&aacute;s de 30 años de experiencia en la implementaci&oacute;n soluciones basadas en c&oacute;mputo m&oacute;vil y recolecci&oacute;n autom&aacute;tica de datos. Utilizamos tecnolog&iacute;as
                                         de lectura e impresi&oacute;n de codigo de barras, RFID y redes inal&aacute;mbricas.</p>
                                 </div>
                             </div>
@@ -159,11 +161,11 @@
                         <a href="./pages/soluciones.html" class="astyle">
                             <div class="card mx-auto csoluciones">
                                 <div class="ml-3 mt-3">
-                                    <img class="img-fluid float-left svgcolor " src="./assets/images/svg/soluciones.svg" alt="Card image cap ">
+                                    <img class="img-fluid mx-auto d-block  svgcolor " src="./assets/images/svg/soluciones.svg" alt="Card image cap ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Soluciones</h5>
-                                    <p class="card-text text-justify">Ingrese a la era de la transformaci&oacute;n digital potenciando la competitividad y rentabilidad de su negocio a trav&eacute;s del uso e implementaci&oacute;n de nuestras soluciones para el control de sus inventarios,
+                                    <p class="card-text text-center">Ingrese a la era de la transformaci&oacute;n digital potenciando la competitividad y rentabilidad de su negocio a trav&eacute;s del uso e implementaci&oacute;n de nuestras soluciones para el control de sus inventarios,
                                         centros de distribuci&oacute;n, rutas, punto de venta, paqueter&iacute;a y mensajer&iacute;a.
                                     </p>
                                 </div>
@@ -176,11 +178,11 @@
                         <a href="./pages/productos.html" class="astyle">
                             <div class="card mx-auto cproductos">
                                 <div class="ml-3 mt-3">
-                                    <img class="img-fluid float-left svgcolor " src="./assets/images/svg/productos.svg" alt="Card image cap ">
+                                    <img class="img-fluid mx-auto d-block  svgcolor " src="./assets/images/svg/productos.svg" alt="Card image cap ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Productos</h5>
-                                    <p class="card-text text-justify">Mantenga la continuidad de sus operaciones con productos confiables y robustos para la lectura e impresi&oacute;n de c&oacute;digo de barras, RFID, redes inal&aacute;mbricas y c&oacute;mputo m&oacute;vil de clase empresarial
+                                    <p class="card-text text-center">Mantenga la continuidad de sus operaciones con productos confiables y robustos para la lectura e impresi&oacute;n de c&oacute;digo de barras, RFID, redes inal&aacute;mbricas y c&oacute;mputo m&oacute;vil de clase empresarial
                                         que aseguren para usted el menor costo total de pertenencia y el mejor retorno de su inversi&oacute;n
                                     </p>
                                 </div>
@@ -193,11 +195,11 @@
                         <a href="./pages/servicios.html" class="astyle">
                             <div class="card mx-auto cservicios">
                                 <div class="ml-3 mt-3">
-                                    <img class="img-fluid float-left svgcolor " src="./assets/images/svg/servicios.svg" alt="Card image cap ">
+                                    <img class="img-fluid mx-auto d-block  svgcolor " src="./assets/images/svg/servicios.svg" alt="Card image cap ">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title text-center">Servicios</h5>
-                                    <p class="card-text text-justify">Ofrecemos servicios de pre-venta y post-venta para asegurar la implementaci&oacute;n exitosa de sus proyectos de TI fomentando una s&oacute;lida relaci&oacute;n a largo plazo con su negocio. Consultor&iacute;a, mejores
+                                    <p class="card-text text-center">Ofrecemos servicios de pre-venta y post-venta para asegurar la implementaci&oacute;n exitosa de sus proyectos de TI fomentando una s&oacute;lida relaci&oacute;n a largo plazo con su negocio. Consultor&iacute;a, mejores
                                         pr&aacute;cticas, administraci&oacute;n remota de dispositivos, soporte t&eacute;cnico y reparaci&oacute;n son algunos de ellos
                                     </p>
                                 </div>
@@ -211,7 +213,7 @@
         <section class="container-fluid">
             <div class="row d-flex justify-content-center mx-5">
                 <div class="col-12  ">
-                    <h1 class="text-center my-5">Aliados</h1>
+                    <h1 class="text-center my-5">Alianzas estrategicas</h1>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3  my-5">
                     <img class="img-fluid mx-auto d-block my-lg-4 my-4 imgstyle" src="./assets/images/axtec.png" onmouseover="caxtec(this)" onmouseout="axtec(this)" alt="">
@@ -240,12 +242,10 @@
                     </div>
                     <form>
                         <div class="form-row d-flex justify-content-center">
-                            <div class="form-group col-md-3">
+                            <div class="form-group col-md-6">
                                 <input type="text" class="form-control" id="nombre" placeholder="Nombre">
                             </div>
-                            <div class="form-group col-md-3">
-                                <input type="text" class="form-control" id="apellido" placeholder="Apellido">
-                            </div>
+
                         </div>
                         <div class="form-row d-flex justify-content-center">
                             <div class="form-group col-md-3">
@@ -257,7 +257,8 @@
                         </div>
                         <div class="form-row d-flex justify-content-center">
                             <div class="form-group col-md-6 ">
-                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                <!-- <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"> -->
+                                <textarea id="texto" class="form-control " name="" rows="3" placeholder="Texto"></textarea>
                             </div>
                         </div>
                         <div class="row d-flex justify-content-center">
@@ -286,7 +287,7 @@
                                     <td class="align-middle">
                                         <p class="text-right">Tel. +52 (55) 4435-8440</p>
                                     </td>
-                                    <td><i class="fab fa-whatsapp  fa-2x"></i></td>
+                                    <td><i class="fab fa-whatsapp-square fa-2x"></i></td>
                                 </tr>
                                 <tr>
 

@@ -6,6 +6,10 @@
     background-attachment: fixed;
 }
 
+.navbar .nav-item .productos {
+    color: #B31617;
+}
+
 .ptitle {
     color: #B32217;
 }
@@ -25,6 +29,77 @@
     -o-transition: all 0.1s 0.1s ease-in-out;
     -ms-transition: all 0.1s 0.1s ease-in-out;
     transition: all 0.1s 0.1s ease-in-out;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-403px * 5));
+        transform: translateX(calc(-403px * 5));
+    }
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-403px * 5));
+        transform: translateX(calc(-403px * 5));
+    }
+}
+
+.slider {
+    background: pr;
+    /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.8s ease;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 40px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(403px * 10);
+    /* height: calc(103px * 1); */
+}
+
+.slider .slide {
+    height: 100px;
+    width: 403px;
+}
+
+.imgstyle {
+    width: 70%;
 }
 
 @media only screen and (min-width: 768px) {
