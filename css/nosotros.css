@@ -95,6 +95,41 @@
     transform: scale(1.1);
 } */
 
+.card {
+    width: 19rem;
+    height: 18rem;
+    border-radius: 20px;
+    border: transparent;
+    background-color: transparent;
+    /* transition: 1.2s; */
+    box-shadow: inset 0 -1px 0 -1px #FFFFFF;
+    transition: box-shadow .6s ease-in-out;
+}
+
+.card:hover .svgcolor {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    transform: scale(1.1);
+}
+
+.cnosotros .svgcolor {
+    filter: invert(30%) sepia(8%) saturate(5114%) hue-rotate(233deg) brightness(87%) contrast(92%);
+}
+
+.cnosotros:hover {
+    box-shadow: inset 0 -100vh 0 -1px #633882;
+    color: white;
+}
+
+a.astyle {
+    text-decoration: none;
+    color: black;
+}
+
+.iconpur {
+    background-color: #633882;
+    color: #FFFFFF;
+}
+
 .efectoimg {
     margin-top: 25%;
     margin-bottom: 25%;
@@ -127,7 +162,8 @@
 }
 
 .footer .fas,
-.fab {
+.fab,
+.far {
     background: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

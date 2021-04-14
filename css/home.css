@@ -190,7 +190,8 @@ a.astyle {
 }
 
 .footer .fas,
-.fab {
+.fab,
+.far {
     background: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
