@@ -6,7 +6,7 @@
     position: relative;
     text-align: center;
     cursor: default;
-    border-radius: 17%;
+    /* border-radius: 17%; */
 }
 
 .view .mask,

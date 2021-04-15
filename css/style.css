@@ -11,7 +11,7 @@
     --size-subtitle-mobile: 18px;
     --items-nav-footer: 16px;
     --caption: 12px;
-    --body: 18px;
+    --body: 17px;
     --par: 16px;
     --font-secondary: 'Poiret One', cursive;
     --font-principal: 'Montserrat', sans-serif;
@@ -176,8 +176,8 @@ nav.navbar {
 }
 
 .footer .fas,
-.fab,
-.far {
+.footer .fab,
+.footer .far {
     background: #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -251,6 +251,9 @@ button[type] {
 /* Media queries */
 
 @media only screen and (min-width: 768px) {
+    .header {
+        height: 60vh;
+    }
     .navbar-brand img {
         width: 100%;
     }
@@ -270,9 +273,6 @@ button[type] {
 }
 
 @media only screen and (min-width: 1024px) {
-    .header {
-        height: 80vh;
-    }
     h6 {
         font-size: var(--size-subtitle);
     }

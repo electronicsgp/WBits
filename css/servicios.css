@@ -10,8 +10,40 @@
     color: #E6B630;
 }
 
+.card {
+    width: 75rem;
+    height: 15rem;
+    border-radius: 20px;
+    border: transparent;
+    background-color: transparent;
+    /* transition: 1.2s; */
+    box-shadow: inset 0 -1px 0 -1px #FFFFFF;
+    transition: box-shadow .6s ease-in-out;
+}
+
+.textcolor {
+    color: #E6B630;
+}
+
+.card:hover .svgcolor {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    transform: scale(1.1);
+}
+
+.cservicios .svgcolor {
+    width: 50%;
+    filter: invert(79%) sepia(68%) saturate(330%) hue-rotate(343deg) brightness(89%) contrast(88%);
+}
+
+.cservicios:hover,
+.cservicios:hover .textcolor {
+    box-shadow: inset 0 -100vh 0 -1px #E6B630;
+    color: white;
+    transition: color .1s;
+}
+
 .view-third .mask {
-    background-color: rgba(230, 182, 90, 0.5);
+    background-color: rgba(230, 182, 90, 0.8);
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -25,6 +57,17 @@
     -o-transition: all 0.1s 0.1s ease-in-out;
     -ms-transition: all 0.1s 0.1s ease-in-out;
     transition: all 0.1s 0.1s ease-in-out;
+}
+
+input[type],
+textarea#texto {
+    border-radius: 20px;
+    background-color: white;
+}
+
+input[type]::placeholder,
+textarea#texto::placeholder {
+    color: black;
 }
 
 @media only screen and (min-width: 768px) {

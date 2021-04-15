@@ -189,14 +189,6 @@ a.astyle {
     width: 70%;
 }
 
-.footer .fas,
-.fab,
-.far {
-    background: #FFFFFF;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 input[type],
 textarea#texto {
     border-radius: 20px;

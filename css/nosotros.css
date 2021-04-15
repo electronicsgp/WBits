@@ -1,9 +1,9 @@
 .header {
-    background-image: url("../assets/images/sliders/mnosotros.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: 100%;
     background-attachment: fixed;
+    background-image: url("../assets/images/sliders/mnosotros.jpg");
 }
 
 .navbar .nav-item .nosotros {
@@ -97,7 +97,7 @@
 
 .card {
     width: 19rem;
-    height: 18rem;
+    height: 25rem;
     border-radius: 20px;
     border: transparent;
     background-color: transparent;
@@ -112,6 +112,7 @@
 }
 
 .cnosotros .svgcolor {
+    width: 35%;
     filter: invert(30%) sepia(8%) saturate(5114%) hue-rotate(233deg) brightness(87%) contrast(92%);
 }
 
@@ -120,14 +121,17 @@
     color: white;
 }
 
-a.astyle {
-    text-decoration: none;
-    color: black;
-}
-
 .iconpur {
     background-color: #633882;
     color: #FFFFFF;
+}
+
+.purplecard {
+    width: 19rem;
+    height: 15rem;
+    border-radius: 20px;
+    border: transparent;
+    background-color: transparent;
 }
 
 .efectoimg {
@@ -161,14 +165,6 @@ a.astyle {
     font-size: var(--size-subtitle-mobile);
 }
 
-.footer .fas,
-.fab,
-.far {
-    background: #FFFFFF;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 input[type],
 textarea#texto {
     border-radius: 20px;
@@ -185,7 +181,7 @@ textarea#texto::placeholder {
         font-size: 34px;
     }
     .header {
-        background-image: url("../assets/images/sliders/nosotros.jpg");
+        background-image: url("../assets/images/sliders/i1.jpg");
     }
     .otro {
         top: -100%;

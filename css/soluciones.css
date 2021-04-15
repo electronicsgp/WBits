@@ -14,6 +14,32 @@
     color: #1C8FC7;
 }
 
+.card {
+    width: 19rem;
+    height: 16rem;
+    border-radius: 20px;
+    border: transparent;
+    background-color: transparent;
+    /* transition: 1.2s; */
+    box-shadow: inset 0 -1px 0 -1px #FFFFFF;
+    transition: box-shadow .6s ease-in-out;
+}
+
+.card:hover .svgcolor {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    transform: scale(1.1);
+}
+
+.csoluciones .svgcolor {
+    width: 40%;
+    filter: invert(44%) sepia(99%) saturate(499%) hue-rotate(159deg) brightness(87%) contrast(89%);
+}
+
+.csoluciones:hover {
+    box-shadow: inset 0 -100vh 0 -1px #1F8EC7;
+    color: white;
+}
+
 .view-third .mask {
     background-color: rgba(31, 142, 199, 0.7);
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -38,6 +64,17 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+input[type],
+textarea#texto {
+    border-radius: 20px;
+    background-color: white;
+}
+
+input[type]::placeholder,
+textarea#texto::placeholder {
+    color: black;
 }
 
 @media only screen and (min-width: 768px) {
