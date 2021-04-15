@@ -41,6 +41,10 @@ h5 {
     font-weight: 300;
 }
 
+.header {
+    height: 70vh;
+}
+
 nav.navbar {
     background-color: #ffffff;
     font-weight: 700;
