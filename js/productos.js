@@ -1,5 +1,5 @@
 function cuno(e) {
-    e.setAttribute('src', '../assets/images/productos/color/1a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/1a.svg')
 
 }
 
@@ -9,7 +9,7 @@ function uno(e) {
 }
 
 function cdos(e) {
-    e.setAttribute('src', '../assets/images/productos/color/2a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/2a.svg')
 
 }
 
@@ -19,7 +19,7 @@ function dos(e) {
 }
 
 function ctres(e) {
-    e.setAttribute('src', '../assets/images/productos/color/3a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/3a.svg')
 
 }
 
@@ -29,7 +29,7 @@ function tres(e) {
 }
 
 function ccuatro(e) {
-    e.setAttribute('src', '../assets/images/productos/color/4a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/4a.svg')
 
 }
 
@@ -39,7 +39,7 @@ function cuatro(e) {
 }
 
 function ccinco(e) {
-    e.setAttribute('src', '../assets/images/productos/color/5a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/5a.svg')
 
 }
 
@@ -49,7 +49,7 @@ function cinco(e) {
 }
 
 function cseis(e) {
-    e.setAttribute('src', '../assets/images/productos/color/6a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/6a.svg')
 
 }
 
@@ -59,7 +59,7 @@ function seis(e) {
 }
 
 function csiete(e) {
-    e.setAttribute('src', '../assets/images/productos/color/7a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/7a.svg')
 
 }
 
@@ -69,7 +69,7 @@ function siete(e) {
 }
 
 function cocho(e) {
-    e.setAttribute('src', '../assets/images/productos/color/8a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/8a.svg')
 
 }
 
@@ -79,7 +79,7 @@ function ocho(e) {
 }
 
 function cnueve(e) {
-    e.setAttribute('src', '../assets/images/productos/color/9a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/9a.svg')
 
 }
 
@@ -89,7 +89,7 @@ function nueve(e) {
 }
 
 function cdiez(e) {
-    e.setAttribute('src', '../assets/images/productos/color/10a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/10a.svg')
 
 }
 
@@ -99,7 +99,7 @@ function diez(e) {
 }
 
 function conce(e) {
-    e.setAttribute('src', '../assets/images/productos/color/11a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/11a.svg')
 
 }
 
@@ -109,7 +109,7 @@ function once(e) {
 }
 
 function cdoce(e) {
-    e.setAttribute('src', '../assets/images/productos/color/12a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/12a.svg')
 
 }
 
@@ -119,7 +119,7 @@ function doce(e) {
 }
 
 function ctrece(e) {
-    e.setAttribute('src', '../assets/images/productos/color/13a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/13a.svg')
 
 }
 
@@ -129,7 +129,7 @@ function trece(e) {
 }
 
 function ccator(e) {
-    e.setAttribute('src', '../assets/images/productos/color/14a.svg')
+    e.setAttribute('src', '../assets/images/productos/Color/14a.svg')
 
 }
 
