@@ -53,8 +53,12 @@
 .carousel-caption {
     transform: translateY(-50%);
     bottom: initial;
-    top: 88%;
-    left: 70%;
+    top: 95%;
+    left: 63%;
+}
+
+.titlel {
+    font-size: var(--size-title-mobile);
 }
 
 .card {
@@ -124,8 +128,8 @@ a.astyle {
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(calc(-370px * 4));
-        transform: translateX(calc(-370px * 4));
+        -webkit-transform: translateX(calc(-530px * 2));
+        transform: translateX(calc(-530px * 2));
     }
 }
 
@@ -135,8 +139,8 @@ a.astyle {
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(calc(-360px * 4));
-        transform: translateX(calc(-360px * 4));
+        -webkit-transform: translateX(calc(-530px * 2));
+        transform: translateX(calc(-530px * 2));
     }
 }
 
@@ -173,10 +177,10 @@ a.astyle {
 }
 
 .slider .slide-track {
-    -webkit-animation: scroll 30s linear infinite;
-    animation: scroll 30s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+    animation: scroll 10s linear infinite;
     display: flex;
-    width: calc(360px * 8);
+    width: calc(360px *6);
     /* height: calc(103px * 1); */
 }
 
@@ -206,6 +210,9 @@ textarea#texto::placeholder {
 @media only screen and (min-width: 768px) {
     #carouselExampleIndicators {
         display: block;
+    }
+    .titlel {
+        font-size: 35px;
     }
 }
 
