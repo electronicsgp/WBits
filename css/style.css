@@ -252,9 +252,6 @@ button[type] {
 /* Media queries */
 
 @media only screen and (min-width: 768px) {
-    .header {
-        height: 60vh;
-    }
     .navbar-brand img {
         width: 100%;
     }
@@ -274,6 +271,9 @@ button[type] {
 }
 
 @media only screen and (min-width: 1024px) {
+    .header {
+        height: 80vh;
+    }
     h6 {
         font-size: var(--size-subtitle);
     }

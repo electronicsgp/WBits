@@ -20,6 +20,7 @@
 } */
 
 .carousel-item {
+    position: relative;
     height: 100vh;
     min-height: 350px;
     background: no-repeat center center scroll;
@@ -31,30 +32,26 @@
 }
 
 .slider1 {
-    background-image: url('../assets/images/sliders/ca1.jpg');
+    background-image: url('../assets/images/sliders/home1.jpg');
 }
 
 .slider2 {
-    background-image: url('../assets/images/sliders/ca2.jpg');
+    background-image: url('../assets/images/sliders/home2.jpg');
 }
 
 .slider3 {
-    background-image: url('../assets/images/sliders/ca3.jpg');
+    background-image: url('../assets/images/sliders/home3.jpg');
 }
 
 .slider4 {
-    background-image: url('../assets/images/sliders/ca4.jpg');
-}
-
-.slider5 {
-    background-image: url('../assets/images/sliders/ca5.jpg');
+    background-image: url('../assets/images/sliders/home4.jpg');
 }
 
 .carousel-caption {
     transform: translateY(-50%);
     bottom: initial;
-    top: 95%;
-    left: 63%;
+    top: 90%;
+    left: 68%;
 }
 
 .titlel {
@@ -212,7 +209,7 @@ textarea#texto::placeholder {
         display: block;
     }
     .titlel {
-        font-size: 35px;
+        font-size: 28px;
     }
 }
 
