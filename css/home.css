@@ -32,7 +32,7 @@
 }
 
 .slider1 {
-    background-image: url('../assets/images/sliders/home1.jpg');
+    background-image: url('../assets/images/sliders/mhome1.jpg');
 }
 
 .slider2 {
@@ -206,6 +206,18 @@ textarea#texto::placeholder {
 /* Media queries */
 
 @media only screen and (min-width: 768px) {
+    .slider1 {
+        background-image: url('../assets/images/sliders/home1.jpg');
+    }
+    .slider2 {
+        background-image: url('../assets/images/sliders/home2.jpg');
+    }
+    .slider3 {
+        background-image: url('../assets/images/sliders/home3.jpg');
+    }
+    .slider4 {
+        background-image: url('../assets/images/sliders/home4.jpg');
+    }
     #carouselExampleIndicators {
         display: block;
     }
