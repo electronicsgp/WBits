@@ -69,8 +69,8 @@ textarea#texto::placeholder {
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(calc(-403px * 5));
-        transform: translateX(calc(-403px * 5));
+        -webkit-transform: translateX(calc(-403px * 14));
+        transform: translateX(calc(-403px * 14));
     }
 }
 
@@ -80,8 +80,8 @@ textarea#texto::placeholder {
         transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(calc(-403px * 5));
-        transform: translateX(calc(-403px * 5));
+        -webkit-transform: translateX(calc(-403px * 14));
+        transform: translateX(calc(-403px * 14));
     }
 }
 
@@ -118,10 +118,10 @@ textarea#texto::placeholder {
 }
 
 .slider .slide-track {
-    -webkit-animation: scroll 40s linear infinite;
-    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
+    animation: scroll 30s linear infinite;
     display: flex;
-    width: calc(403px * 10);
+    width: calc(403px * 28);
     /* height: calc(103px * 1); */
 }
 
