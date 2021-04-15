@@ -37,3 +37,9 @@ div.col-9 div {
         visibility: visible;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .menu {
+        visibility: visible;
+    }
+}
