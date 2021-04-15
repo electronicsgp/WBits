@@ -1,8 +1,9 @@
 .header {
+    width: auto;
     background-image: url("../assets/images/sliders/mnosotros.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 110%;
+    background-size: 100%;
     background-attachment: fixed;
 }
 

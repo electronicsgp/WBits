@@ -1,8 +1,8 @@
 .header {
     background-image: url("../assets/images/sliders/msoluciones.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: 100%;
     background-attachment: fixed;
 }
 

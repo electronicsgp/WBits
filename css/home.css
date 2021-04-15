@@ -48,10 +48,11 @@
 }
 
 .carousel-caption {
+    width: 80%;
     transform: translateY(-50%);
     bottom: initial;
-    top: 90%;
-    left: 68%;
+    top: 80%;
+    /* left: 50%; */
 }
 
 .titlel {
@@ -209,7 +210,7 @@ textarea#texto::placeholder {
         display: block;
     }
     .titlel {
-        font-size: 28px;
+        font-size: 40px;
     }
 }
 
