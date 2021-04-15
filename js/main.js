@@ -11,7 +11,7 @@ const scrollspy = () => {
     sections.forEach((section) => {
         const sectionYPosition = section.offsetTop;
         let ejemplo = document.querySelector('#' + section.id);
-        if (pageYPosition > sectionYPosition - 300) {
+        if (pageYPosition > sectionYPosition - window.screen.height / 2) {
             // alert(section.id);
             if ("test" === section.id) {
                 // alert("hola");
