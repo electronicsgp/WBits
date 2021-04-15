@@ -36,27 +36,27 @@
 }
 
 .slider2 {
-    background-image: url('../assets/images/sliders/home2.jpg');
+    background-image: url('../assets/images/sliders/mhome2.jpg');
 }
 
 .slider3 {
-    background-image: url('../assets/images/sliders/home3.jpg');
+    background-image: url('../assets/images/sliders/mhome3.jpg');
 }
 
 .slider4 {
-    background-image: url('../assets/images/sliders/home4.jpg');
+    background-image: url('../assets/images/sliders/mhome4.jpg');
 }
 
 .carousel-caption {
     width: 80%;
     transform: translateY(-50%);
     bottom: initial;
-    top: 80%;
+    top: 90%;
     /* left: 50%; */
 }
 
 .titlel {
-    font-size: var(--size-title-mobile);
+    font-size: 25px;
 }
 
 .card {
@@ -223,6 +223,13 @@ textarea#texto::placeholder {
     }
     .titlel {
         font-size: 40px;
+    }
+    .carousel-caption {
+        width: 80%;
+        transform: translateY(-50%);
+        bottom: initial;
+        top: 80%;
+        /* left: 50%; */
     }
 }
 
