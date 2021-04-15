@@ -25,8 +25,15 @@ div.col-9 div {
     height: 500px;
 }
 
+.menu {
+    visibility: hidden;
+}
+
 @media only screen and (min-width: 768px) {
     .header {
         background-image: url("../assets/images/sliders/blog.jpg");
+    }
+    .menu {
+        visibility: visible;
     }
 }

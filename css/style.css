@@ -13,8 +13,8 @@
     --caption: 12px;
     --body: 17px;
     --par: 16px;
-    --font-secondary: 'Poiret One', cursive;
-    --font-principal: 'Montserrat', sans-serif;
+    --font-secondary: 'Poiret One';
+    --font-principal: 'Nunito', sans-serif;
 }
 
 * {
