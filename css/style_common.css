@@ -33,15 +33,15 @@
     font-size: 17px;
     padding: 10px;
     /* background: rgba(0, 0, 0, 0.8); */
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .view p {
     font-family: 'Nunito', sans-serif;
-    font-size: 12px;
+    font-size: 9px;
     position: relative;
     color: #fff;
-    padding: 10px 20px 20px;
+    padding: 0px 20px 20px;
     text-align: center;
 }
 
@@ -66,9 +66,11 @@
 @media only screen and (min-width: 768px) {
     .view h2 {
         font-size: 25px;
+        margin: 20px 0 0 0;
     }
     .view p {
-        font-size: 18px;
+        font-size: 20px;
+        padding: 10px 20px 20px;
     }
 }
 
