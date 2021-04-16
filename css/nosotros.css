@@ -166,6 +166,10 @@
     font-size: var(--size-subtitle-mobile);
 }
 
+.cuadro {
+    font-size: 15px;
+}
+
 input[type],
 textarea#texto {
     border-radius: 20px;
@@ -191,6 +195,9 @@ textarea#texto::placeholder {
     .efectoimg {
         margin-top: 15%;
         margin-bottom: 15%;
+    }
+    .cuadro {
+        font-size: 20px;
     }
 }
 
