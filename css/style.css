@@ -51,8 +51,12 @@ nav.navbar {
     transition: 1s;
 }
 
+.navbar-brand {
+    width: 30%;
+}
+
 .navbar-brand img {
-    width: 50%;
+    width: 100%;
 }
 
 .navbar .nav-item .dropdown-menu {
@@ -256,6 +260,9 @@ button[type] {
 /* Media queries */
 
 @media only screen and (min-width: 768px) {
+    .navbar-brand {
+        width: 12%;
+    }
     .navbar-brand img {
         width: 100%;
     }
