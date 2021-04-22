@@ -27,38 +27,46 @@ const scrollspy = () => {
 scrollspy();
 
 function axtec(e) {
-    e.setAttribute('src', './assets/images/axtec.png')
+    e.setAttribute('src', './assets/images/axtec.png');
 
 }
 
 function caxtec(e) {
-    e.setAttribute('src', './assets/images/caxtec.png')
+    e.setAttribute('src', './assets/images/caxtec.png');
 
 }
 
 function czebra(e) {
-    e.setAttribute('src', './assets/images/csmart.png')
+    e.setAttribute('src', './assets/images/csmart.png');
 }
 
 function carbor(e) {
-    e.setAttribute('src', './assets/images/cwes.png')
+    e.setAttribute('src', './assets/images/cwes.png');
 }
 
 function zebra(e) {
-    e.setAttribute('src', './assets/images/smart.png')
+    e.setAttribute('src', './assets/images/smart.png');
 }
 
 function arbor(e) {
-    e.setAttribute('src', './assets/images/wes.png')
+    e.setAttribute('src', './assets/images/wes.png');
 }
 
 function tsc(e) {
-    e.setAttribute('src', './assets/images/mobi.png')
+    e.setAttribute('src', './assets/images/mobi.png');
 }
 
 
 function ctsc(e) {
-    e.setAttribute('src', './assets/images/cmobi.png')
+    e.setAttribute('src', './assets/images/cmobi.png');
+}
+
+function gbl(e) {
+    e.setAttribute('src', './assets/images/gbl.png');
+}
+
+function cgbl(e) {
+    e.setAttribute('src', './assets/images/cgbl.png');
 }
 $(function() {
     $('.btn-group-fab').on('click', '.btn', function() {
